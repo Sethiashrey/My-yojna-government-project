@@ -54,12 +54,6 @@ export default function AboutPage() {
             {/* Feature 1 */}
             <div className="bg-gray-50 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
               <div className="flex justify-center mb-4">
-                <Image
-                  src="/icons/simplify.svg"
-                  alt="Simplify"
-                  width={60}
-                  height={60}
-                />
               </div>
               <h3 className="text-xl font-semibold text-[#203a43] mb-2">
                 Simplified Process
@@ -73,32 +67,18 @@ export default function AboutPage() {
             {/* Feature 2 */}
             <div className="bg-gray-50 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
               <div className="flex justify-center mb-4">
-                <Image
-                  src="/icons/ai.svg"
-                  alt="AI Assistance"
-                  width={60}
-                  height={60}
-                />
               </div>
               <h3 className="text-xl font-semibold text-[#203a43] mb-2">
-                AI Powered Suggestions
+                Easy Filtering
               </h3>
               <p className="text-gray-600">
-                Get personalized recommendations on schemes based on your
-                eligibility and profile.
+                Get personalized results for your requirements.
               </p>
             </div>
 
             {/* Feature 3 */}
             <div className="bg-gray-50 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
-              <div className="flex justify-center mb-4">
-                <Image
-                  src="/icons/community.svg"
-                  alt="Community Support"
-                  width={60}
-                  height={60}
-                />
-              </div>
+
               <h3 className="text-xl font-semibold text-[#203a43] mb-2">
                 Multiple language Support
               </h3>
@@ -119,7 +99,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-3 gap-10">
           <div className="text-center">
             <Image
-              src="/team/shrey.jpg"
+              src="/shrey.png"
               alt="Shrey Sethia"
               width={150}
               height={150}
@@ -131,7 +111,7 @@ export default function AboutPage() {
 
           <div className="text-center">
             <Image
-              src="/team/teammate1.jpg"
+              src="/harshil.png"
               alt="Team Member"
               width={150}
               height={150}
@@ -143,7 +123,7 @@ export default function AboutPage() {
 
           <div className="text-center">
             <Image
-              src="/team/teammate2.jpg"
+              src="/lakshya.png"
               alt="Team Member"
               width={150}
               height={150}
